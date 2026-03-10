@@ -1,0 +1,122 @@
+/* Import premium Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Reset default spacing */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+/* Page background */
+body{
+background: linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+/* Header styling */
+header{
+text-align:center;
+padding:40px 20px;
+}
+
+header h1{
+font-size:40px;
+font-weight:600;
+letter-spacing:1px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:16px;
+color:#cbd5f5;
+}
+
+/* Main container cards */
+.container{
+background:rgba(255,255,255,0.05);
+backdrop-filter: blur(10px);
+border:1px solid rgba(255,255,255,0.1);
+border-radius:18px;
+padding:30px;
+margin:20px;
+width:90%;
+max-width:500px;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+/* Hover effect for premium feel */
+.container:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 35px rgba(0,0,0,0.5);
+}
+
+/* Section titles */
+.container h2{
+margin-bottom:20px;
+font-size:22px;
+font-weight:500;
+}
+
+/* Input fields */
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:8px;
+border:none;
+outline:none;
+font-size:14px;
+background:#f1f5f9;
+color:#111;
+}
+
+/* Buttons */
+button{
+width:100%;
+padding:12px;
+margin-top:10px;
+border:none;
+border-radius:10px;
+font-size:15px;
+font-weight:500;
+cursor:pointer;
+background:linear-gradient(135deg,#6366f1,#8b5cf6);
+color:white;
+transition:0.3s;
+}
+
+/* Button hover */
+button:hover{
+transform:scale(1.05);
+background:linear-gradient(135deg,#4f46e5,#7c3aed);
+}
+
+/* SOS button special color */
+.container:last-child button{
+background:linear-gradient(135deg,#ef4444,#dc2626);
+}
+
+.container:last-child button:hover{
+background:linear-gradient(135deg,#dc2626,#b91c1c);
+}
+
+/* Footer */
+footer{
+margin-top:30px;
+padding:20px;
+font-size:14px;
+color:#94a3b8;
+}
+#map{
+height:500px;
+width:100%;
+margin-top:20px;
+border-radius:12px;
+}

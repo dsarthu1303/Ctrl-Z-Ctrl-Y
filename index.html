@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Suraksha AI - Personal Safety</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Leaflet Map CSS -->
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🛡️ Suraksha AI</h1>
+<p>Your AI Powered Personal Safety System</p>
+
+</header>
+
+<!-- SAFEST ROUTE SECTION -->
+
+<section class="container">
+
+<h2>Find Safest Route</h2>
+
+<input type="text" id="start" placeholder="Enter Starting Location">
+
+<input type="text" id="end" placeholder="Enter Destination">
+
+<button onclick="findRoute()">Find Safe Route</button>
+
+</section>
+
+<!-- MAP DISPLAY -->
+
+<section class="container">
+
+<h2>Route Map</h2>
+
+<div id="map"></div>
+
+</section>
+
+<!-- VOICE EMERGENCY -->
+
+<section class="container">
+
+<h2>Voice Emergency Detection</h2>
+
+<p>Click the button and say words like "Help" or "Save Me"</p>
+
+<button onclick="startListening()">Start Listening</button>
+
+</section>
+
+<!-- DATA LEAK SCANNER -->
+
+<section class="container">
+
+<h2>Check Personal Data Leak</h2>
+
+<input type="text" id="email" placeholder="Enter your Email">
+
+<button onclick="checkLeak()">Scan Internet</button>
+
+</section>
+
+<!-- SOS ALERT -->
+
+<section class="container">
+
+<h2>Emergency SOS</h2>
+
+<button onclick="sendSOS()">Send Emergency Alert</button>
+
+</section>
+
+<footer>
+
+<p>Suraksha AI © 2026 | Hackathon Project</p>
+
+</footer>
+
+<!-- Leaflet Map JS -->
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- Your JS file -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
